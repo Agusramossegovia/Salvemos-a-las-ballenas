@@ -1,0 +1,5 @@
+.Title {
+    border: 20px solid var(--azul);
+    padding: 20px 30px;
+    border-radius: 4px;
+}
