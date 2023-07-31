@@ -1,0 +1,29 @@
+.ballena-franca {
+    max-width: 100px;
+    
+    object-fit: cover;
+
+    border-radius: 8px;
+    text-align: left;
+    
+}
+.ballena-franca img {
+    border-radius: 8px 8px 0 0 ;
+}
+.franca-info{
+    padding: 8px 16px 24px;
+}
+.franca-info p {
+    color: var(--negro);
+    margin-bottom: 8px;
+}
+.franca-detalles{
+    font-weight: bold;
+    color: var(--celeste);
+}
+.mas info{
+    background-color: var(--celeste);
+    padding: 4px 8px;
+    border-radius: 20px;
+    display: inline-block;
+}
