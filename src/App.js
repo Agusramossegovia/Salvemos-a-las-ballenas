@@ -1,7 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
 import Title from './Componentes/Title';
-import Tarjeta from './Componentes/Tarjeta';
 import ContenedorTarjeta from './Componentes/Contenedor';
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
     <div className="App">
       <Title/>
       <ContenedorTarjeta/>
-      <Tarjeta/>
 
     </div>
   );

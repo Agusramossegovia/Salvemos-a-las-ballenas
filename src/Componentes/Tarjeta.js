@@ -1,12 +1,7 @@
 import './Tarjeta.css';
 
-export default function Tarjeta (){
-    const animal ={
-        imagen: 'images/ballena-franca.jpg',
-        titulo: 'Ballena franca',
-        descripcion: 'Especie en peligro de extinsión',
-        masInfo: 'mas informacion'
-    }
+export default function Tarjeta ({animal}){
+    
     return (
         <div className="ballena-franca">
             <img src={animal.imagen} alt=""/>
