@@ -9,7 +9,8 @@ export default function Tarjeta ({animal}){
                 <h2>{animal.titulo}</h2>
                 <p>{animal.descripcion}</p>
                 <div className="franca-detalles">
-                    <p className="mas-info">{animal.masInfo}</p>
+                    <button className="mas-info">{animal.masInfo}</button>
+
                 </div>
             </div>
         </div>
